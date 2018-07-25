@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CollegeCalendar</string>
+
+    <string-array name="dayArray">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="Times">Times</string>
+
+    <string name="Monday">MON</string>
+    <string name="Tuesday">TUE</string>
+    <string name="Wednesday">WED</string>
+    <string name="Thursday">THU</string>
+    <string name="Friday">FRI</string>
+    <string name="Saturday">SAT</string>
+    <string name="Sunday">SUN</string>
+
+    <string name="eightAm">8 am</string>
+    <string name="nineAm">9 am</string>
+    <string name="tenAm">10 am</string>
+    <string name="elevenAm">11 am</string>
+    <string name="twelvePm">12 pm</string>
+    <string name="onePm">1 pm</string>
+    <string name="twoPm">2 pm</string>
+    <string name="threePm">3 pm</string>
+    <string name="fourPm">4 pm</string>
+    <string name="fivePm">5 pm</string>
+    <string name="sixPm">6 pm</string>
+    <string name="sevenPm">7 pm</string>
+    <string name="eightPm">8 pm</string>
+    <string name="ninePm">9 pm</string>
+    <string name="tenPm">10 pm</string>
+
+
+</resources>

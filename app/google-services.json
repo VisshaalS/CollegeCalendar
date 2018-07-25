@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208143988284",
+    "firebase_url": "https://collegecalendar-c0c18.firebaseio.com",
+    "project_id": "collegecalendar-c0c18",
+    "storage_bucket": "collegecalendar-c0c18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208143988284:android:5c253fd9639fb20d",
+        "android_client_info": {
+          "package_name": "com.example.collegecalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208143988284-nvoluktc4u72jed37l8v3seb4gq4gtos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegecalendar",
+            "certificate_hash": "f04b1171979b825c690bd10eba72e672b5461ac6"
+          }
+        },
+        {
+          "client_id": "208143988284-ksvi2si7afalmbrric2kqiraplbtqjbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABuiosTCmqFNOS07jC7EdHnOf4i9YRqrs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208143988284-ksvi2si7afalmbrric2kqiraplbtqjbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

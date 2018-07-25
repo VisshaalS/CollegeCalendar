@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/relative"
+                >
+
+
+            <LinearLayout
+                android:id="@+id/horizontalLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="930dp"
+                >
+
+                <TextView
+                    android:id="@+id/timesHeader"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="@string/Times"
+                    android:textStyle="bold"
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    android:id="@+id/timesBorder"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/verticalLinearLayout"
+                android:layout_width="575dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="parent"
+                android:layout_marginTop="30dp"
+                >
+                <!--8 am divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--8 am-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/eightAm"
+                    android:textStyle="bold"
+                    />
+
+                <!--9 am divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--9 am-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/nineAm"
+                    android:textStyle="bold"
+                    />
+
+                <!--10 am divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--10 am-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/tenAm"
+                    android:textStyle="bold"
+                    />
+                <!--11 am divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--11 am-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/elevenAm"
+                    android:textStyle="bold"
+                    />
+
+                <!--12 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--12 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/twelvePm"
+                    android:textStyle="bold"
+                    />
+
+                <!--1 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--1 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/onePm"
+                    android:textStyle="bold"
+                    />
+
+                <!--2 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--2 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/twoPm"
+                    android:textStyle="bold"
+                    />
+
+                <!--3 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--3 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/threePm"
+                    android:textStyle="bold"
+                    />
+
+                <!--4 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--4 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/fourPm"
+                    android:textStyle="bold"
+                    />
+
+                <!--5 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--5 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/fivePm"
+                    android:textStyle="bold"
+                    />
+
+                <!--6 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--6 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/sixPm"
+                    android:textStyle="bold"
+                    />
+
+                <!--7 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--7 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/sevenPm"
+                    android:textStyle="bold"
+                    />
+
+                <!--8 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--8 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/eightPm"
+                    android:textStyle="bold"
+                    />
+
+                <!--9 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--9 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/ninePm"
+                    android:textStyle="bold"
+                    />
+
+                <!--10 pm divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+
+                <!--10 pm-->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:text="@string/tenPm"
+                    android:textStyle="bold"
+                    />
+                <!--end divide line-->
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    />
+            </LinearLayout>
+            </RelativeLayout>
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
